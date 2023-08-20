@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bgColor"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR AGE"
+        android:padding="7dp"
+        android:background="@color/fillColorBlue"
+        android:textColor="@color/b"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/fillColorBlue"
+        android:backgroundTint="@color/buttonBackground"
+        android:text="Select The Date"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dateColor"
+        android:textSize="12sp"
+
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="@color/fillColorBlue"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:id="@+id/tvAgeInSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@color/dateColor"
+        android:textSize="30sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Age In Seconds"
+        android:textColor="@color/fillColorBlue"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:id="@+id/tvAgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@color/dateColor"
+        android:textSize="30sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Age In Minutes"
+        android:textColor="@color/fillColorBlue"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:id="@+id/tvAgeInHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@color/dateColor"
+        android:textSize="30sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Age In Hours"
+        android:textColor="@color/fillColorBlue"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:id="@+id/tvAgeInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@color/dateColor"
+        android:textSize="30sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Age In Days"
+        android:textColor="@color/fillColorBlue"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:id="@+id/tvAgeInYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@color/dateColor"
+        android:textSize="30sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Age In Years"
+        android:textColor="@color/fillColorBlue"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.449"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.055" -->
+
+
+</LinearLayout>
